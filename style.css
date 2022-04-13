@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2a2a2a;
+}
+
+div {
+    margin-top: 40vh;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    height: 2.5em;
+    width: 5.5em;
+    color: #000;
+    background-color: rgb(128, 128, 128);
+    border: none;
+    transition: transform 0.1s ease-in-out;
+    border-radius: 10%;
+    
+}
+
+button:hover {
+    background-color: rgb(166, 166, 166);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    button:hover {
+        transform: none;
+        background-color: rgb(128, 128, 128);
+    }
+}
